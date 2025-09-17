@@ -1,1 +1,1 @@
-export const filters = ['all', 'man', 'woman'];
+export const filters = ['kasur', 'dipan', 'bantal' , 'guling'];

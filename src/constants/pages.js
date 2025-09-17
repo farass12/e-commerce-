@@ -1,6 +1,7 @@
 import HomeImage from '../images/nav-images/home.jpg';
 import ShopImage from '../images/nav-images/shop.jpg';
 import AboutImage from '../images/nav-images/about.jpg';
+import BlogImage from '../images/nav-images/blog.jpg';
 import ContactImage from '../images/nav-images/contact.jpg';
 
 export const pages = [
@@ -18,6 +19,11 @@ export const pages = [
     name: 'About',
     path: '/about',
     image: AboutImage,
+  },
+  {
+    name: 'Blog',
+    path: '/blog',
+    image: BlogImage,
   },
   {
     name: 'Contact',

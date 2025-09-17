@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
-import Logo from '../../images/logo.svg';
+import Logo from '../../images/logo-ortopedic.png';
 import LogoWrapper from '../LogoWrapper/LogoWrapper';
 import CartButton from './CartButton';
 import Burger from './Burger';
@@ -16,33 +16,39 @@ const Wrapper = styled.div`
 `;
 
 const InnerWrapper = styled.div`
-  max-width: ${({ theme }) => theme.maxWidth};
-  padding: 20px;
-  margin: 0 auto;
+  width: 100%;
+  padding: 20px 40px; 
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* kiri & kanan terpisah */
   align-items: center;
 `;
 
-const Panel = styled.div`
+const Left = styled.div`
   display: flex;
-  justify-content: flex-end;
   align-items: center;
+`;
+
+const Right = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 20px; /* jarak antara Cart dan Burger */
 `;
 
 const Navbar = ({ open, handleBurgerClick }) => {
   return (
     <Wrapper>
       <InnerWrapper>
-        <a href="/">
-          <LogoWrapper src={Logo} alt="suntime.com" />
-        </a>
-        <Panel>
+        <Left>
+          <a href="/">
+            <LogoWrapper src={Logo} alt="suntime.com" />
+          </a>
+        </Left>
+        <Right>
           <CartButton href="#" className="snipcart-checkout">
             Cart
           </CartButton>
           <Burger open={open} handleBurgerClick={handleBurgerClick} />
-        </Panel>
+        </Right>
       </InnerWrapper>
     </Wrapper>
   );

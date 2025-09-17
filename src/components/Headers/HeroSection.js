@@ -104,8 +104,8 @@ export default function HeroSection() {
             align="right"
             as="h1"
           >
-            <span>All you need</span>
-            <span>is smile and sun</span>
+            <span>Yang kamu butuhkan</span>
+            <span>hanya ada di sini</span>
           </StyledHeading>
           <StyledButton
             as={AniLink}
