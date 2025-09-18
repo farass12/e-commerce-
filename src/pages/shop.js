@@ -53,7 +53,7 @@ const Shop = () => {
     <Layout>
       <main>
         <SEO title="Shop" />
-        <PageHeader pageName="Shop" title="Choose your sunglasses" />
+        <PageHeader pageName="Shop" title="CARI APA YANG KAMU BUTUHKAN DISINI" />
         <HeaderImage image={Image} />
         <SectionWrapper>
           <FilterWrapper>

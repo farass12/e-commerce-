@@ -40,7 +40,7 @@ const IndexPage = () => {
       <main>
         <HeroSection />
         <SectionWrapper>
-          <Heading align="center">Recent products</Heading>
+          <Heading align="center">BEST SELLER</Heading>
           <ColumnList>
             {recentProducts.map((p) => (
               <ProductCard

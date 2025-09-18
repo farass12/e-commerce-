@@ -41,14 +41,24 @@ const Hero = styled.div`
 `;
 
 const InnerWrapper = styled.header`
-  max-width: ${({ theme }) => theme.maxWidth};
+  position: absolute;
+  top: 0;
+  right: 0;
   height: 100vh;
-  padding: 20px;
-  margin: 0 auto;
+  padding: 20px 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
+  text-align: right;
+
+  /* di HP biar ke tengah */
+  @media (max-width: 768px) {
+    right: auto;
+    left: 0;
+    align-items: center;
+    text-align: center;
+  }
 `;
 
 const StyledButton = styled(Button)`
@@ -104,8 +114,8 @@ export default function HeroSection() {
             align="right"
             as="h1"
           >
-            <span>Yang kamu butuhkan</span>
-            <span>hanya ada di sini</span>
+            <span>YANG KAMU BUTUHKAN</span>
+            <span>HANYA ADA DI SINI</span>
           </StyledHeading>
           <StyledButton
             as={AniLink}
