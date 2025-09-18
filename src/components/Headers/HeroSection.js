@@ -4,7 +4,7 @@ import gsap, { Power2 } from 'gsap';
 import AniLink from 'gatsby-plugin-transition-link/AniLink';
 
 import HeroImgMobile from '../../images/nav-images/home.jpg';
-import HeroImgDesktop from '../../images/header-images/homepage-hero.jpg';
+import HeroImgDesktop from '../../images/header-images/halaman-utama.png';
 import Heading from '../Heading/Heading';
 import Button from '../Button/Button';
 
