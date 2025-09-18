@@ -21,6 +21,16 @@ const StyledHeading = styled(Heading)`
   }
 `;
 
+const HeroDescription = styled.p`
+  font-size: ${({ theme }) => theme.m};
+  max-width: 600px;
+  line-height: 1.5;
+  margin: 20px 0;
+  color: ${({ theme }) => theme.black};
+  opacity: 0;
+  transform: translateY(25%);
+`;
+
 const Wrapper = styled.div`
   width: 100%;
   height: 100vh;
@@ -52,7 +62,6 @@ const InnerWrapper = styled.header`
   align-items: flex-end;
   text-align: right;
 
-  /* di HP biar ke tengah */
   @media (max-width: 768px) {
     right: auto;
     left: 0;
@@ -81,6 +90,7 @@ export default function HeroSection() {
   const animeImg = useRef(null);
   const animeOverlay = useRef(null);
   const animeHeading = useRef(null);
+  const animeDesc = useRef(null);
 
   const tl = gsap.timeline({ defaults: { duration: 1.4, delay: 0.5 } });
   const tl2 = gsap.timeline({ defaults: { duration: 0.6, delay: 2 } });
@@ -101,6 +111,7 @@ export default function HeroSection() {
     tl2
       .to(span1, { opacity: 1, y: 0 })
       .to(span2, { opacity: 1, y: 0, delay: 0 })
+      .to(animeDesc.current, { opacity: 1, y: 0, delay: 0 })
       .to(animeButton, { opacity: 1, y: 0, delay: 0 });
   }, [tl, tl2]);
 
@@ -114,9 +125,18 @@ export default function HeroSection() {
             align="right"
             as="h1"
           >
-            <span>YANG KAMU BUTUHKAN</span>
-            <span>HANYA ADA DI SINI</span>
+            <span>SELAMAT DATANG CALON</span>
+            <span>KONSUMEN ORTOPEDIC</span>
           </StyledHeading>
+
+          {/* Deskripsi baru */}
+          <HeroDescription ref={animeDesc}>
+            Kasur Ortopedic menggunakan Busa Rebonded yang merupakan teknologi
+            dengan memadatkan pecahan busa sehingga menjadi busa padat, tahan
+            terhadap beban, tidak mudah kempes dan ambles dalam jangka waktu
+            lebih dari 15 tahun
+          </HeroDescription>
+
           <StyledButton
             as={AniLink}
             cover

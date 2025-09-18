@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import Layout from "../components/Layout/Layout";
 import PageHeader from "../components/Headers/PageHeader";
-import HeaderImage from "../components/Headers/HeaderImage";
-import Image from "../images/header-images/shop-header.jpg";
+// import HeaderImage from "../components/Headers/HeaderImage"; // ❌ dihapus
+// import Image from "../images/header-images/shop-header.jpg"; // ❌ dihapus
 import Button from "../components/Button/Button";
 import SectionWrapper from "../components/Wrappers/SectionWrapper";
 import ColumnList from "../components/Column/ColumnList";
@@ -39,7 +39,7 @@ const StyledButton = styled(Button)`
   }
 `;
 
-const products = require("../data/products.json"); // ambil data lokal
+const products = require("../data/products.json"); // ambil data produk lokal
 
 const Shop = () => {
   const [selected, setSelected] = useState(allValue);
@@ -53,8 +53,10 @@ const Shop = () => {
     <Layout>
       <main>
         <SEO title="Shop" />
+        {/* Hanya judul halaman */}
         <PageHeader pageName="Shop" title="CARI APA YANG KAMU BUTUHKAN DISINI" />
-        <HeaderImage image={Image} />
+
+        {/* Filter kategori */}
         <SectionWrapper>
           <FilterWrapper>
             {filters.map((filter) => (
@@ -68,6 +70,8 @@ const Shop = () => {
               </StyledButton>
             ))}
           </FilterWrapper>
+
+          {/* Daftar produk */}
           <ColumnList>
             {filteredProducts.map((p) => (
               <ProductCard
