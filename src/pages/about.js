@@ -26,10 +26,10 @@ import { aboutColumns } from '../constants/aboutColumns';
 const AboutPage = () => {
   return (
     <Layout>
-      <SEO title="About" />
+      <SEO title="Tentang Perusahaan" />
       <main>
         <PageHeader
-          pageName="About"
+          pageName="Tentang Perusahaan"
           title="Express your style"
           continuedTitle="in the rays of the sun"
         />

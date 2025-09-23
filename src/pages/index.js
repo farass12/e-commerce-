@@ -58,14 +58,12 @@ const IndexPage = () => {
         <ImageTransitionSection beforeImg={BeforeImg} afterImg={AfterImg} />
         <FlexWrapper>
           <ContentWrapper position="left">
-            <Heading>Dispel the clouds with Suntime</Heading>
+            <Heading>PROFIL PERUSAHAAN</Heading>
             <Paragraph align="justify">
-              Before they sold out adaptogen artisan, subway tile unicorn
-              asymmetrical sustainable pour-over tumeric pok pok squid. Direct
-              trade tattooed polaroid vape viral plaid quinoa.
+             berdiri sejak 26 November 2016 yang berlokasi di kabupaten tangerang yang bergerak di bidang produksi busa general yang dapat di gunakan untuk beberapa industri di indonesia dan dalam pemaksimalan sisa produksi berupa busa scrap maka kami di tahun 2018 melai memproduksi busa rebonded yang sangan berfungsi untuk pembuatan kasur orthopedik, saat ini pabrik busa rebonded kami sangat berkembang pesat sehingga saat ini kami bisa menampung dan memanfaatkan sisa busa dari pabrik sepatu produksi merk nike, adidas dan beberapa merk lokal lainnya.
             </Paragraph>
             <StyledButton as={Link} to="/about">
-              About
+              MORE
             </StyledButton>
           </ContentWrapper>
           <ImagesSection

@@ -118,5 +118,125 @@
     "sex": "dipan",
     "image": "/images/products/suntime-vintage-1.jpg",
     "secondImage": "/images/products/suntime-vintage-2.jpg"
+  },
+  {
+    "slug": "suntime-classic",
+    "name": "Bantal-1",
+    "description": "Stylish and timeless sunglasses perfect for everyday wear.",
+    "price": 120,
+    "promoprice": 99,
+    "sex": "bantal",
+    "image": "/images/products/suntime-classic-1.jpg",
+    "secondImage": "/images/products/suntime-classic-2.jpg"
+  },
+  {
+    "slug": "suntime-sporty",
+    "name": "Bantal-2",
+    "description": "Lightweight and durable, ideal for outdoor sports and adventures.",
+    "price": 150,
+    "promoprice": 130,
+    "sex": "bantal",
+    "image": "/images/products/suntime-sporty-1.jpg",
+    "secondImage": "/images/products/suntime-sporty-2.jpg"
+  },
+  {
+    "slug": "suntime-elegant",
+    "name": "Bantal-3",
+    "description": "Elegant design for special occasions and classy outfits.",
+    "price": 180,
+    "promoprice": 160,
+    "sex": "bantal",
+    "image": "/images/products/suntime-elegant-1.jpg",
+    "secondImage": "/images/products/suntime-elegant-2.jpg"
+  },
+  {
+    "slug": "suntime-sport-ladies",
+    "name": "Bantal-4",
+    "description": "Comfortable and sporty sunglasses for active women.",
+    "price": 140,
+    "promoprice": 120,
+    "sex": "bantal",
+    "image": "/images/products/suntime-sport-ladies-1.jpg",
+    "secondImage": "/images/products/suntime-sport-ladies-2.jpg"
+  },
+  {
+    "slug": "suntime-vintage",
+    "name": "Bantal-5",
+    "description": "Retro-inspired sunglasses for a bold, classic look.",
+    "price": 130,
+    "promoprice": 110,
+    "sex": "bantal",
+    "image": "/images/products/suntime-vintage-1.jpg",
+    "secondImage": "/images/products/suntime-vintage-2.jpg"
+  },
+  {
+    "slug": "suntime-vintage",
+    "name": "Bantal-6",
+    "description": "Retro-inspired sunglasses for a bold, classic look.",
+    "price": 130,
+    "promoprice": 110,
+    "sex": "bantal",
+    "image": "/images/products/suntime-vintage-1.jpg",
+    "secondImage": "/images/products/suntime-vintage-2.jpg"
+  },
+  {
+    "slug": "suntime-classic",
+    "name": "Guling-1",
+    "description": "Stylish and timeless sunglasses perfect for everyday wear.",
+    "price": 120,
+    "promoprice": 99,
+    "sex": "guling",
+    "image": "/images/products/suntime-classic-1.jpg",
+    "secondImage": "/images/products/suntime-classic-2.jpg"
+  },
+  {
+    "slug": "suntime-sporty",
+    "name": "GUling-2",
+    "description": "Lightweight and durable, ideal for outdoor sports and adventures.",
+    "price": 150,
+    "promoprice": 130,
+    "sex": "guling",
+    "image": "/images/products/suntime-sporty-1.jpg",
+    "secondImage": "/images/products/suntime-sporty-2.jpg"
+  },
+  {
+    "slug": "suntime-elegant",
+    "name": "Guling-3",
+    "description": "Elegant design for special occasions and classy outfits.",
+    "price": 180,
+    "promoprice": 160,
+    "sex": "guling",
+    "image": "/images/products/suntime-elegant-1.jpg",
+    "secondImage": "/images/products/suntime-elegant-2.jpg"
+  },
+  {
+    "slug": "suntime-sport-ladies",
+    "name": "Guling-4",
+    "description": "Comfortable and sporty sunglasses for active women.",
+    "price": 140,
+    "promoprice": 120,
+    "sex": "guling",
+    "image": "/images/products/suntime-sport-ladies-1.jpg",
+    "secondImage": "/images/products/suntime-sport-ladies-2.jpg"
+  },
+  {
+    "slug": "suntime-vintage",
+    "name": "Guling-5",
+    "description": "Retro-inspired sunglasses for a bold, classic look.",
+    "price": 130,
+    "promoprice": 110,
+    "sex": "guling",
+    "image": "/images/products/suntime-vintage-1.jpg",
+    "secondImage": "/images/products/suntime-vintage-2.jpg"
+  },
+  {
+    "slug": "suntime-vintage",
+    "name": "Guling-6",
+    "description": "Retro-inspired sunglasses for a bold, classic look.",
+    "price": 130,
+    "promoprice": 110,
+    "sex": "guling",
+    "image": "/images/products/suntime-vintage-1.jpg",
+    "secondImage": "/images/products/suntime-vintage-2.jpg"
   }
 ]
