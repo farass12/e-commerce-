@@ -20,16 +20,12 @@ export const footerLinks = [
     heading: 'Contact',
     links: [
       {
-        name: '010-1010-10101',
+        name: '0811998862',
         link: '#',
       },
       {
-        name: '101-01010-01010',
-        link: '#',
-      },
-      {
-        name: 'hihihello@suntime.com',
-        link: '#',
+        name: 'masrukin85@gmail.com',
+        link: 'https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDXXrlVPMWhHTfjBvLxFxRTTCrsKSqXdZCSgmQPFCNCTVVSXTWXZtFSGknbbKMQjWbVXjWS',
       },
     ],
   },

@@ -82,9 +82,10 @@ const Footer = () => {
               white
               align="center"
               margin="20px 0 10px 0"
-            >{`Copyright ${new Date().getFullYear()} Suntime. All rights reserved.`}</Paragraph>
+            >{`Jl. Lurah Tamrin No 85, RT 02 RW 06
+
+Desa Sukamanah, Kec Rajeg Kab. Tangerang – Banten – Indonesia.`}</Paragraph>
             <StyledTitle small white align="center">
-              By Paweł Trojnacki
             </StyledTitle>
           </LastColumn>
         </InnerWrapper>

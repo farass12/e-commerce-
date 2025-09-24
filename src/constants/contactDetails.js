@@ -3,22 +3,27 @@ import EnvelopeIcon from '../images/icons/envelope.svg';
 import PhoneIcon from '../images/icons/phone.svg';
 
 export const contactDetails = [
+   {
+    id: 2,
+    title: `email`,
+    icon: EnvelopeIcon,
+    details: [`masrukin85@gmail.com`],
+  },
   {
     id: 1,
     title: `location`,
     icon: LocationIcon,
-    details: [`234 Penguin Street`, `Antarctica`],
-  },
-  {
-    id: 2,
-    title: `email`,
-    icon: EnvelopeIcon,
-    details: [`hihihello@suntime.com`, `askme@suntime.com`],
+    details: [`PT. Aneka Busa Internasional
+
+Jl. Lurah Tamrin No 85, RT 02 RW 06
+
+Desa Sukamanah, Kec Rajeg Kab. Tangerang – Banten – Indonesia`],
   },
   {
     id: 3,
     title: `phone`,
     icon: PhoneIcon,
-    details: [`010-1010-1010`, `101-1010-1010`],
+    details: [`0811998862
+`],
   },
 ];
