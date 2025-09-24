@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 const articles = [
   {
     title: "Tips Sederhana Bikin Lingkungan Kamar Lebih Nyaman",
-    slug: "/blog/tips-kamar",
+    slug: "/artikel",
     image: "https://source.unsplash.com/400x300/?bedroom,interior"
   },
   {
